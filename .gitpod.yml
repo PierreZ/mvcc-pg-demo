@@ -1,8 +1,5 @@
 image: gitpod/workspace-postgres
 tasks:
-  - init: init db
-    command: psql < init.sql
-
   - name: psql1
     command: psql
 
